@@ -43,19 +43,18 @@
 
 .taskTableHeader {
     width: 100px;
+    padding-left: 5px;
 }
-
-.taskTableAdded {
-    width: 100px;
-}
-
 .taskTableActions {
-    width: 80px;
+    width: 75px;
+    padding-left: 5px;
 }
+
 
 .taskContent {
     color: white;
     width: 150px;
+    padding-left: 10px;
 }
 
 .taskDate {
@@ -73,6 +72,7 @@ table, th, td {
 
 .updateButton, .deleteButton {
     color: #6c5ce7;
+    padding-left: 10px;
 }
 
 .todoInput {
@@ -112,6 +112,7 @@ table, th, td {
     border-radius: 5px;
     transition: all ease 0.1s;
     box-shadow: 0px 5px 0px 0px #a29bfe;
+    margin-left: 13px;
 }
 
 .buttonAddTask:active {
