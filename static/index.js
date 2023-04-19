@@ -132,6 +132,7 @@ const todoCloseButton = document.getElementById("todoCloseButton");
 // todoButton clicked -> open todoModal
 todoButton.addEventListener("click", function() {
     todoModal.style.display = "block";
+    checkTodoModal = 1;
 });
 
 // close todoModal when todoCloseButton clicked
@@ -143,6 +144,7 @@ todoButton.addEventListener("click", function() {
 window.onclick = function(event) {
     if(event.target == todoModal) {
         todoModal.style.display = "none";
+        checkTodoModal = 0;
     }
 }
 
