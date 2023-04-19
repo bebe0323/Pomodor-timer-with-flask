@@ -32,7 +32,90 @@
     padding: 20px;
     
     /* border: 1px solid #888; */
-    width: 30%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
     position: fixed;
-    margin: 20% 35% auto; /* 15% from the top and 30% from the left */
+    margin: 20% 25% auto; /* 15% from the top and 30% from the left */
 }
+
+.todoTableHeader {
+    color: white;
+}
+
+.taskTableHeader {
+    width: 100px;
+}
+
+.taskTableAdded {
+    width: 100px;
+}
+
+.taskTableActions {
+    width: 80px;
+}
+
+.taskContent {
+    color: white;
+    width: 150px;
+}
+
+.taskDate {
+    color: white;
+}
+
+.taskActions {
+    width: 70px;
+}
+
+table, th, td {
+    border: 1px solid #6c5ce7;
+    border-radius: 10px;
+}
+
+.updateButton, .deleteButton {
+    color: #6c5ce7;
+}
+
+.todoInput {
+    margin-top: 20px;
+}
+
+.tablerowTodo {
+    line-height: 25px;
+}
+
+.taskInput {
+    color: #8707ff;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    /* max-width: 190px; */
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+.taskInput:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.buttonAddTask {
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+
+.buttonAddTask:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+

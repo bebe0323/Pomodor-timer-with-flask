@@ -51,3 +51,63 @@
     transition-duration: 0.4s;
     outline: none;
 }
+
+#restartButton, #saveChangesButton {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+
+#restartButton {
+    margin-right: 10px;
+}
+
+#restartButton:active, #saveChangesButton:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+
+.restartANDsaveBUTTON {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+.sessionInput, .breakInput {
+    color: #8707ff;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    /* max-width: 190px; */
+    width: 100px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breakInput {
+    margin-bottom: 70px;
+}
+
+.sessionInput:active {
+box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.inputDescription {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
